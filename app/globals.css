@@ -300,6 +300,15 @@ body {
   }
 }
 
+@keyframes hero-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .animate-fade-up {
   animation: fade-up 850ms ease-out both;
 }
@@ -424,4 +433,8 @@ body {
 
 .animate-pulse-dot {
   animation: pulse-dot 3.6s ease-in-out infinite;
+}
+
+.animate-hero-progress {
+  animation: hero-progress 4.5s linear infinite;
 }

@@ -1,11 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import type { Lang } from "@/components/Sidebar";
-
-type DestinationsPageProps = {
-  searchParams?: Promise<{
-    lang?: string | string[];
-  }>;
-};
+import { useStoredLang } from "@/hooks/useStoredLang";
 
 const content = {
   ar: {
@@ -235,16 +232,8 @@ const langLinks: { code: Lang; label: string }[] = [
   { code: "zh", label: "中文" },
 ];
 
-function normalizeLang(value: string | string[] | undefined): Lang {
-  const next = Array.isArray(value) ? value[0] : value;
-  return next === "en" || next === "zh" || next === "ar" ? next : "ar";
-}
-
-export default async function DestinationsPage({
-  searchParams,
-}: DestinationsPageProps) {
-  const params = await searchParams;
-  const lang = normalizeLang(params?.lang);
+export default function DestinationsPage() {
+  const [lang, setLang] = useStoredLang();
   const t = content[lang];
 
   return (
@@ -272,9 +261,10 @@ export default async function DestinationsPage({
                 {t.langLabel}
               </span>
               {langLinks.map((item) => (
-                <Link
+                <button
                   key={item.code}
-                  href={`/destinations?lang=${item.code}`}
+                  type="button"
+                  onClick={() => setLang(item.code)}
                   className={[
                     "px-4 py-2 text-xs font-black transition-all",
                     lang === item.code
@@ -283,7 +273,7 @@ export default async function DestinationsPage({
                   ].join(" ")}
                 >
                   {item.label}
-                </Link>
+                </button>
               ))}
             </div>
           </header>

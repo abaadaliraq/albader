@@ -1,12 +1,10 @@
 "use client";
 
-import type { Dispatch, SetStateAction } from "react";
-
 export type Lang = "ar" | "en" | "zh";
 
 type SidebarProps = {
   lang: Lang;
-  setLang: Dispatch<SetStateAction<Lang>>;
+  setLang: (lang: Lang) => void;
 };
 
 const navText = {
