@@ -19,6 +19,7 @@ const copy = {
       { label: "الخطط", href: "/plans" },
       { label: "الخدمات الرقمية", href: "/digital-services" },
       { label: "الوجهات", href: "/destinations" },
+      { label: "المسار التجاري", href: "/commercial-visits" },
     ],
   },
   en: {
@@ -32,6 +33,7 @@ const copy = {
       { label: "Plans", href: "/plans" },
       { label: "Digital Services", href: "/digital-services" },
       { label: "Destinations", href: "/destinations" },
+      { label: "Commercial Route", href: "/commercial-visits" },
     ],
   },
   zh: {
@@ -44,6 +46,7 @@ const copy = {
       { label: "方案", href: "/plans" },
       { label: "数字服务", href: "/digital-services" },
       { label: "目的地", href: "/destinations" },
+      { label: "商务路线", href: "/commercial-visits" },
     ],
   },
 } as const;

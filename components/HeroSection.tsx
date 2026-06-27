@@ -24,7 +24,7 @@ const copy = {
       {
         city: "بغداد",
         label: "بغداد الثقافية",
-        title: "المتحف العراقي، شارع المتنبي، المدرسة المستنصرية، وبيت التحفيات",
+        title: "متاحف وأسواق ومواقع تراثية وثقافية مختارة",
         image: "/images/hero-baghdad.jpg",
       },
       {
@@ -57,7 +57,7 @@ const copy = {
       {
         city: "Baghdad",
         label: "Cultural Baghdad",
-        title: "Iraq Museum, Al-Mutanabbi Street, Al-Mustansiriya School, and House of Antiques",
+        title: "Selected museums, markets, and cultural heritage sites",
         image: "/images/hero-baghdad.jpg",
       },
       {
@@ -90,7 +90,7 @@ const copy = {
       {
         city: "巴格达",
         label: "文化巴格达",
-        title: "伊拉克博物馆、穆塔纳比街、穆斯坦西里亚学校与古董之家",
+        title: "精选博物馆、市场与文化遗产地点",
         image: "/images/hero-baghdad.jpg",
       },
       {

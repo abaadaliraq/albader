@@ -13,11 +13,12 @@ const navText = {
     "الاستقبال",
     "المسارات",
     "الخدمات الرقمية",
-    "التشغيل",
+    "الوجهات",
+    "المسار التجاري",
     "الأثر",
   ],
-  en: ["Vision", "Reception", "Routes", "Digital", "Operation", "Impact"],
-  zh: ["愿景", "接待", "路线", "数字服务", "执行", "影响"],
+  en: ["Vision", "Reception", "Routes", "Digital", "Destinations", "Commercial", "Impact"],
+  zh: ["愿景", "接待", "路线", "数字服务", "目的地", "商务路线", "影响"],
 };
 
 const langs: { code: Lang; label: string }[] = [
@@ -40,7 +41,7 @@ export default function Sidebar({ lang, setLang }: SidebarProps) {
           中
         </div>
 
-        <div className="relative mt-10 flex flex-1 flex-col items-center gap-5">
+        <div className="relative mt-8 flex flex-1 flex-col items-center gap-3">
           {nav.map((item, index) => (
             <a
               key={item}

@@ -38,7 +38,7 @@ const content = {
         title: "المسارات الثقافية والتراثية",
         points: [
           "بغداد التاريخية",
-          "بيت التحفيات كوجهة تراثية وثقافية فقط",
+          "مواقع تراثية وثقافية مختارة",
           "الزقورة وأور والأهوار",
           "أربيل ودهوك والسليمانية",
         ],
@@ -72,7 +72,7 @@ const content = {
           "المدرسة المستنصرية",
           "القصر العباسي",
           "سوق الصفافير",
-          "بيت التحفيات كوجهة تراثية وثقافية",
+          "فضاءات ثقافية وتجارب عراقية أصيلة",
         ],
         description:
           "مسار يعرض بغداد كمدينة معرفة وكتب وأسواق وعمارة عباسية وتراث بغدادي حي.",
@@ -158,7 +158,7 @@ const content = {
         title: "Cultural & Heritage Routes",
         points: [
           "Historic Baghdad",
-          "House of Antiques as a cultural heritage destination only",
+          "Selected cultural heritage destinations",
           "Ziggurat, Ur, and the Marshes",
           "Erbil, Duhok, and Sulaymaniyah",
         ],
@@ -192,7 +192,7 @@ const content = {
           "Al-Mustansiriya School",
           "Abbasid Palace",
           "Copper Market",
-          "House of Antiques as a cultural heritage destination",
+          "Cultural spaces and authentic Iraqi experiences",
         ],
         description:
           "A route presenting Baghdad as a city of knowledge, books, markets, Abbasid architecture, and living heritage.",
@@ -273,7 +273,7 @@ const content = {
         title: "文化与遗产路线",
         points: [
           "历史巴格达",
-          "古董之家仅作为文化遗产目的地",
+          "精选文化遗产目的地",
           "神庙、乌尔与湿地",
           "埃尔比勒、杜胡克与苏莱曼尼亚",
         ],
@@ -302,7 +302,7 @@ const content = {
           "穆斯坦西里亚学校",
           "阿拔斯宫",
           "铜器市场",
-          "古董之家作为文化遗产目的地",
+          "文化空间与真实伊拉克体验",
         ],
         description:
           "展示巴格达作为知识、书籍、市场、阿拔斯建筑与活态遗产之城的路线。",

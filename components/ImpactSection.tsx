@@ -9,7 +9,7 @@ type ImpactSectionProps = {
 const copy = {
   ar: {
     dir: "rtl",
-    sectionNumber: "06",
+    sectionNumber: "07",
     eyebrow: "الخلاصة الاستراتيجية",
     title: "الأثر المتوقع",
     subtitle:
@@ -48,7 +48,7 @@ const copy = {
   },
   en: {
     dir: "ltr",
-    sectionNumber: "06",
+    sectionNumber: "07",
     eyebrow: "Strategic Conclusion",
     title: "Expected Impact",
     subtitle:
@@ -87,7 +87,7 @@ const copy = {
   },
   zh: {
     dir: "ltr",
-    sectionNumber: "06",
+    sectionNumber: "07",
     eyebrow: "战略总结",
     title: "预期影响",
     subtitle:
@@ -131,7 +131,7 @@ export default function ImpactSection({ lang }: ImpactSectionProps) {
 
   return (
     <section
-      id="section-6"
+      id="section-7"
       dir={t.dir}
       className="relative min-h-screen overflow-hidden bg-[#120204] px-5 py-16 text-white md:px-10 lg:pl-[82px]"
       style={{

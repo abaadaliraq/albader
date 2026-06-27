@@ -8,6 +8,7 @@ import PlansSection from "@/components/PlansSection";
 import Sidebar from "@/components/Sidebar";
 import SiteFooter from "@/components/SiteFooter";
 import VisionSection from "@/components/VisionSection";
+import CommercialVisitsSection from "@/components/CommercialVisitsSection";
 import { useStoredLang } from "@/hooks/useStoredLang";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
       <PlansSection lang={lang} />
       <DigitalServicesSection lang={lang} />
       <DestinationsSection lang={lang} />
+      <CommercialVisitsSection lang={lang} />
       <ImpactSection lang={lang} />
       <SiteFooter lang={lang} />
     </main>
